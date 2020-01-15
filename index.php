@@ -16,4 +16,4 @@ function checkout_spinner()
 {
     wp_enqueue_script( 'checkout-spinner' , plugin_dir_url( __FILE__ ) . 'spinner.js' );
 }
-add_action('wp_enqueue_scripts', 'checkout_spinner', PHP_INT_MAX);
+add_action('wp_enqueue_scripts', 'checkout_spinner');
