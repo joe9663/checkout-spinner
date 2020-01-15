@@ -3,9 +3,9 @@
  * Plugin Name: WooCommerce Checkout Spinner
  * Description: Changes Checkout button to spinner on form submission.
  * Version: 1.0
- * Plugin URI: 
+ * Plugin URI: https://github.com/joe9663/checkout-spinner
  * Author: Joseph Wood & Harry Jackson
- * Author URI: 
+ * Author URI: https://github.com/joe9663
  */
 /**
  * Adds jQuery to override default WooCommerce checkout button behavior.
