@@ -14,7 +14,7 @@
  */
 function checkout_spinner()
 {
-    wp_enqueue_script( 'wc_checkout_spinner' , plugin_dir_url( __FILE__ ) . '/spinner.js', array('jquery'), false , true );
+    wp_enqueue_script( 'wc_checkout_spinner' , plugin_dir_url( __FILE__ ) . 'spinner.js', array('jquery'), false , true );
     wp_localize_script( 'wc_checkout_spinner', 'wpAjax', array( 'wpurl' => get_bloginfo('wpurl') ) );
 }
 add_action('wp_enqueue_scripts', 'checkout_spinner');
